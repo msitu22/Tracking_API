@@ -6,6 +6,8 @@ This guide will help you get started with our API, providing detailed informatio
 - [Prerequisites](https://github.com/msitu22/Tracking_API#prerequisites)
 - [Environment Setup](https://github.com/msitu22/Tracking_API#environment-setup)
 - [Making requests(How to use the APIs)](https://github.com/msitu22/Tracking_API#making-requestshow-to-use-the-apis)
+  - [makeTrackAPI](https://github.com/msitu22/Tracking_API#maketrackapi)
+  - [getTrackAPI](https://github.com/msitu22/Tracking_API#gettrackapi)
 - [Error Handling - logging](https://github.com/msitu22/TrackingAPIs#error-handling---logging)
 
 ## Prerequisites
@@ -63,10 +65,10 @@ There are 2 APIs for this project, one is makeTrack API(post request to send dat
 - Response: Once you click the send button to send the data to TrackingMore API, you will receive a Json format data with status code with status code 200(if you receive status code 400, that means the requested resource was not found).
 
 #### Below is screenshot with expected response status code 200
-![image](https://github.com/msitu22/TrackingAPIs/assets/112602900/d315c579-afba-465c-b9c9-ab167c1fc35d)
+![image](https://github.com/msitu22/Tracking_API/assets/112602900/ac2676e7-9f54-4d87-a5cc-cefc68ba4270)
 
 #### Below is screenshot with non-expected response status code 400
-![image](https://github.com/msitu22/TrackingAPIs/assets/112602900/af9aa8d8-2a44-4b19-98ac-e503f3285761)
+![image](https://github.com/msitu22/Tracking_API/assets/112602900/7b645e3c-3da2-492e-ab1d-490ae10fb2ad)
 
 ### getTrackAPI:
 - Endpoint: /get_track
@@ -75,15 +77,15 @@ There are 2 APIs for this project, one is makeTrack API(post request to send dat
 - Response: Once you click the send button to send the data to TrackingMore API, you will receive a Json format data with status code with status code 200(if you receive status code 400, that means the requested resource was not found)
 
 #### Below is screenshot with expected response status code 200
-![image](https://github.com/msitu22/TrackingAPIs/assets/112602900/1bf1108c-6108-4cab-9f33-8b43e2108372)
+![image](https://github.com/msitu22/Tracking_API/assets/112602900/f2f449ce-24ca-4cc3-894f-30026a3400bd)
 
 #### Below is screenshot with non-expected response status code 400
 ![image](https://github.com/msitu22/TrackingAPIs/assets/112602900/e65075c3-cf22-4219-8aad-34ad99abb000)
 
 ## Error Handling - logging
 We will use Winston logging library to log information for error handling. I have implemented it in this app so whenever you run an API, you can view the logs in your terminal or command prompt while your Node.js application is running. 
+![image](https://github.com/msitu22/Tracking_API/assets/112602900/2a9e8c51-3394-46e3-8cf3-36695fdaa062)
 
-![image](https://github.com/msitu22/TrackingAPIs/assets/112602900/05527090-d11e-4266-b7d2-104717333e5c)
 
 
 
