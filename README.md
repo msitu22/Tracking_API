@@ -66,7 +66,7 @@ There are 2 APIs for this project, one is makeTrack API(post request to send dat
 - Response: Once you click the send button to send the data to TrackingMore API, you will receive a Json format data with status code with status code 200(if you receive status code 400, that means the requested resource was not found).
 
 #### Below is screenshot with expected response status code 200
-![image](https://github.com/msitu22/Tracking_API/assets/112602900/ac2676e7-9f54-4d87-a5cc-cefc68ba4270)
+![image](https://github.com/msitu22/Tracking_API/assets/112602900/fcbd8bbf-f400-4f3c-9773-2ad4c1654175)
 
 #### Below is screenshot with non-expected response status code 400
 ![image](https://github.com/msitu22/Tracking_API/assets/112602900/7b645e3c-3da2-492e-ab1d-490ae10fb2ad)
