@@ -80,7 +80,7 @@ There are 2 APIs for this project, one is makeTrack API(post request to send dat
 ![image](https://github.com/msitu22/Tracking_API/assets/112602900/f2f449ce-24ca-4cc3-894f-30026a3400bd)
 
 #### Below is screenshot with non-expected response status code 400
-![image](https://github.com/msitu22/TrackingAPIs/assets/112602900/e65075c3-cf22-4219-8aad-34ad99abb000)
+![image](https://github.com/msitu22/Tracking_API/assets/112602900/4629783d-3700-4070-a83c-fd8b9afad632)
 
 ## Error Handling - logging
 We will use Winston logging library to log information for error handling. I have implemented it in this app so whenever you run an API, you can view the logs in your terminal or command prompt while your Node.js application is running. 
