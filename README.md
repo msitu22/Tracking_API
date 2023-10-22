@@ -9,7 +9,7 @@ This guide will help you get started with our API, providing detailed informatio
   - [makeTrackAPI](https://github.com/msitu22/Tracking_API#maketrackapi)
   - [getTrackAPI](https://github.com/msitu22/Tracking_API#gettrackapi)
 - [Error Handling - logging](https://github.com/msitu22/Tracking_API#error-handling---logging)
-- [Install SSL Certificates(Optional)]()
+- [Install SSL Certificates(Optional)](https://github.com/msitu22/Tracking_API#install-ssl-certificatesoptional)
 
 ## Prerequisites
 Before you start using our API, make sure you have the following prerequisites in place:
