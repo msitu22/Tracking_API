@@ -87,6 +87,7 @@ There are 2 APIs for this project, one is makeTrack API(post request to send dat
 We will use Winston logging library to log information for error handling. I have implemented it in this app so whenever you run an API, you can view the logs in your terminal or command prompt while your Node.js application is running. 
 ![image](https://github.com/msitu22/Tracking_API/assets/112602900/2a9e8c51-3394-46e3-8cf3-36695fdaa062)
 
+
 ## Install SSL Certificates(Optional)
 We are using HTTPS make request and below are the steps to install SSL certificates. SSL certificates allow web servers to encrypt their traffic, and also offer a mechanism to validate server identities to their visitors. Websites using SSL are accessed via the https:// protocol.
 
