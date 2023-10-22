@@ -2,11 +2,11 @@
 This guide will help you get started with our API, providing detailed information on how to make requests, the required request format, available endpoints, and expected responses. Our API interacts with the Trackingmore API(Upstream API). 
 
 ## Table of content
-- [Intro](https://github.com/msitu22/TrackingAPIs/blob/main/README.md#trackingapis)
-- [Prerequisites](https://github.com/msitu22/TrackingAPIs/blob/main/README.md#prerequisites)
-- [Environment Setup](https://github.com/msitu22/TrackingAPIs/blob/main/README.md#environment-setup)
-- [Making requests(How to use the APIs)](https://github.com/msitu22/TrackingAPIs/blob/main/README.md#making-requestshow-to-use-the-apis)
-- [Error Handling - logging](https://github.com/msitu22/TrackingAPIs/blob/main/README.md#error-handling---logging)
+- [Intro](https://github.com/msitu22/Tracking_API#trackingapis)
+- [Prerequisites](https://github.com/msitu22/Tracking_API#prerequisites)
+- [Environment Setup](https://github.com/msitu22/Tracking_API#environment-setup)
+- [Making requests(How to use the APIs)](https://github.com/msitu22/Tracking_API#making-requestshow-to-use-the-apis)
+- [Error Handling - logging](https://github.com/msitu22/TrackingAPIs#error-handling---logging)
 
 ## Prerequisites
 Before you start using our API, make sure you have the following prerequisites in place:
