@@ -14,7 +14,7 @@ This guide will help you get started with our API, providing detailed informatio
 Before you start using our API, make sure you have the following prerequisites in place:
 - Access Credentials: To use our API, you need to obtain API key in the TrackingMore API website:
 https://www.trackingmore.com/signup.html
-- Environment Setup: Configure your development environment to make HTTPS requests to our API endpoints.
+- Environment Setup: Configure your development environment to make HTTPS requests to our API endpoints. Also need to install required dependencies.
 
 ## Environment Setup
 Start a new Node.js project with below command line below and it will create a new package.json file for our project:
