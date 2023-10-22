@@ -15,7 +15,14 @@ export const fetchTrack = async (tracking_data) => {
             }
         })
         logger.info("TrackingMore API POST request is working")
-        return trackResponse.data;
+        return ({
+                "code": trackResponse.data.meta.code,
+                "message": trackResponse.data.meta.message,
+                "order_number": trackResponse.data.data.order_number, 
+                "tracking_number": trackResponse.data.data.tracking_number,
+                "courier_code": trackResponse.data.data.courier_code,
+                "order_id": trackResponse.data.data.order_id
+        });
     } catch (error) {
         logger.error(error);
         return error;
