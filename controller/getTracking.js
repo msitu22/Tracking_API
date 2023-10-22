@@ -32,7 +32,10 @@ export const getTracking = async (order_number) => {
                 }
             })
             logger.info("TrackingMore API GET request is working")
-            return trackResponse.data
+            return ({"delivery_status": trackResponse.data.data[0].delivery_status,
+                    "tracking_number": trackResponse.data.data[0].tracking_number, 
+                    "courier_code": trackResponse.data.data[0].courier_code, 
+                    "order_id": trackResponse.data.data[0].order_id});
         } catch (error) {
             logger.error(error);
             return error;
