@@ -19,6 +19,7 @@ export const fetchTrack = async (tracking_data) => {
                 "order_number": trackResponse.data.data.order_number, 
                 "tracking_number": trackResponse.data.data.tracking_number,
                 "courier_code": trackResponse.data.data.courier_code,
+                "order_id": trackResponse.data.data.order_id,
         });
     } catch (error) {
         logger.error(error);
