@@ -26,9 +26,7 @@ export const getTracking = async (order_number) => {
         try {
             const trackResponse = await axios.get(trackingUrl, {
                 headers: {
-                    'Content-Type': 'application/json',
-                    Accept: 'application/json',
-                    'Tracking-Api-Key': apiKey,
+                    'Tracking-Api-Key': apiKey
                 }
             })
             logger.info("TrackingMore API GET request is working")
